@@ -79,7 +79,7 @@ Sobre variables numericas preprocesadas online (imputacion + escalado):
 - **Modelo cluster 1**: `cluster.KMeans` (online).
 - **Modelo cluster 2**: `cluster.CluStream`.
 
-Evaluacion externa mediante distribucion de etiquetas reales (`RainTomorrow`) dentro de cada cluster.
+
 
 ## Resultados principales observados
 
@@ -116,13 +116,3 @@ Instalacion sugerida:
 pip install pandas numpy river matplotlib seaborn tqdm
 ```
 
-## Ejecucion
-
-1. Colocar el dataset en `data/weatherAUS.csv`.
-2. Abrir `modelos_stream.ipynb`.
-3. Ejecutar celdas en orden para reproducir:
-   - preparacion del stream,
-   - evaluacion holdout,
-   - evaluacion prequential,
-   - deteccion de deriva,
-   - clustering online.
